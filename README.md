@@ -18,7 +18,7 @@ This project is designed for learning how a simple AI agent works.
 
 ---
 
-# Features
+## Features
 
 - Simple chat interaction
 - Basic scientific knowledge base
@@ -28,9 +28,9 @@ This project is designed for learning how a simple AI agent works.
 
 ---
 
-# Project Structure
+## Project Structure
 
-
+```
 mini-ai-agent
 │
 ├── main.py
@@ -39,7 +39,7 @@ mini-ai-agent
 ├── README.md
 ├── LICENSE
 └── .gitignore
-
+```
 
 ### File Description
 
@@ -52,115 +52,136 @@ mini-ai-agent
 
 ---
 
-# Installation
+## Installation
 
 Clone the repository:
 
 ```bash
 git clone https://github.com/appleweiping/mini-ai-agent.git
+```
 
 Enter the project folder:
 
+```bash
 cd mini-ai-agent
- Usage
+```
+
+---
+
+## Usage
 
 Run the AI agent:
 
+```bash
 python main.py
-Example
+```
+
+---
+
+## Example
 
 Example interaction:
 
+```
 You: hello
 AI: Hello! I am a simple AI agent that can chat and answer basic science questions.
 
 You: What is Newton's second law?
 AI: Newton's second law states that F = ma, where force equals mass times acceleration.
-Knowledge Areas
+```
+
+---
+
+## Knowledge Areas
 
 This AI agent currently supports basic knowledge in:
 
-Mathematics
-
-Physics
-
-Chemistry
-
-Biology
-
-Astronomy
+- Mathematics
+- Physics
+- Chemistry
+- Biology
+- Astronomy
 
 Example topics:
 
-Subject	Example Questions
-Math	Pythagorean theorem
-Physics	Newton's laws
-Chemistry	Water chemical formula
-Biology	DNA
-Astronomy	Black holes
-Example Questions
+| Subject | Example Questions |
+|------|------|
+| Math | Pythagorean theorem |
+| Physics | Newton's laws |
+| Chemistry | Water chemical formula |
+| Biology | DNA |
+| Astronomy | Black holes |
+
+---
+
+## Example Questions
 
 You can try asking:
 
+```
 你好
 什么是勾股定理
 牛顿第二定律是什么
 水的化学式
 什么是DNA
 什么是黑洞
-How It Works
+```
+
+---
+
+## How It Works
 
 The AI agent works using a simple rule-based system.
 
 Workflow:
 
-User enters a question
-
-Agent detects intent
-
-Agent selects knowledge domain
-
-Agent searches knowledge base
-
-Agent returns response
+1. User enters a question
+2. Agent detects intent
+3. Agent selects knowledge domain
+4. Agent searches knowledge base
+5. Agent returns response
 
 This simple architecture is designed for educational purposes.
 
-Future Improvements
+---
+
+## Future Improvements
 
 Possible improvements include:
 
-Add math calculator
+- Add math calculator
+- Add multi-turn conversation memory
+- Integrate large language model APIs
+- Add tool-calling capability
+- Expand knowledge base
 
-Add multi-turn conversation memory
+---
 
-Integrate large language model APIs
-
-Add tool-calling capability
-
-Expand knowledge base
-
-Contributing
+## Contributing
 
 Contributions are welcome.
 
 If you would like to improve the project:
 
-Fork the repository
+1. Fork the repository
+2. Create a new branch
+3. Submit a pull request
 
-Create a new branch
+---
 
-Submit a pull request
-
-License
+## License
 
 This project is licensed under the MIT License.
 
 See the LICENSE file for details.
 
-Author
+---
 
-GitHub:
+## Author
+
+GitHub:  
 https://github.com/appleweiping
+
+---
 
 ⭐ If you find this project useful, please consider giving it a star on GitHub.
