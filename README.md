@@ -62,7 +62,7 @@ git clone https://github.com/appleweiping/mini-ai-agent.git
 Enter the project folder:
 
 cd mini-ai-agent
-Usage
+ Usage
 
 Run the AI agent:
 
